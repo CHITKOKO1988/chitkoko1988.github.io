@@ -1,4 +1,19 @@
-git status
-git add .
-git commit -m "message"
-git push -u origin main
+please select folder location
+-open terminal
+-git clone url(github repo)
+-git status
+-git add .
+-git commit -m "message"
+-git push -u origin main
+
+
+new repo
+========
+locak folder =>
+-git init
+-git remote add origin url(github re)
+-git remote show origin
+-git add .
+-git status
+-git commit -m "message"
+-git push
