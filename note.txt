@@ -7,3 +7,24 @@ please select folder location
 -git add .
 -git commit -m "message"
 -git push -u origin main
+
+
+Note_2
+=====>>
+new repo
+========
+locak folder =>
+-git init
+-git remote add origin url(github re)
+-git remote show origin
+-git add .
+-git status
+-git commit -m "message"
+-git push
+
+
+Note_3
+=====>>
+-git branch
+-git checkout -b branch_name
+-git checkout branch_nam
