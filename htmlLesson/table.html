@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Lesson</title>
+</head>
+<body>
+    <h1 align="center">Table Lesson</h1>
+    
+    <!-- thead,tbody,tfoot-->
+    <table border="1" cellpadding="30" cellspacing="1" >
+       <thead>
+             <tr>
+                <th>No.</th>
+                <th>Name.</th>
+                <th>Age.</th>
+                <th>Address.</th>
+                <th>Phone.</th>
+                <th>Gender.</th>
+             </tr>
+       </thead>
+       <tbody>
+             <tr>
+                <td>1</td>
+                <td>Chit ko ko</td>
+                <td>35</td>
+                <td>Thailand</td>
+                <td>+66620803978</td>
+                <td>Male</td>
+             </tr>
+       </tbody>
+       <tfoot>
+             <tr>
+                <th>No.</th>
+                <th>Name.</th>
+                <th>Age.</th>
+                <th>Address.</th>
+                <th>Phone.</th>
+                <th>Gender.</th>
+             </tr>
+       </tfoot>
+    </table>
+    <h1>Invoice</h1>
+    <table border="1" cellpadding="30" cellspacing="1" >
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Totle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Colca</td>
+                <td>2</td>
+                <td>2500</td>
+                <td>5000</td>               
+            </tr>
+                <td>Fired checken</td>
+                <td>4</td>
+                <td>4800</td>
+                <td>19200</td>            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">Grand Totle</th>
+                <th>24200</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
