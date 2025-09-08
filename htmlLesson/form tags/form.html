@@ -10,7 +10,8 @@
     <h1><ins>Student Register</ins></h1>
     
     <!-- GET / POST -->
-    <form action="Register.php" method="post">
+    <form action="Register.php" method="get">
+    <!-- <form action="google.com" method="post">    -->
        <div>
           <label for="name">Student_Name</label><br>
           <input type="text" id="name" name="studentname" minlength="5" maxlength="10" placeholder="eg: Mg Mg" required>
@@ -20,7 +21,7 @@
 
        <div>
         <label for="Age">Student_Age</label><br>
-        <input type="number"  id="Age" name="Student Age"step="1" value="17" required>
+        <input type="number"  id="Age" name="Student Age"step="1" min="20" max="30" required>
        </div>
 
        <br>
@@ -47,14 +48,14 @@
        <br>
 
        <div>
-        
+         
        </div>
 
 
 
 
        <button type="submit">Register</button>
-
+       <!-- <button type="submit">Enter</button> -->
 
     </form>
 
