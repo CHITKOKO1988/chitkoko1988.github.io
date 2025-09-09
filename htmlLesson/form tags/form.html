@@ -10,24 +10,118 @@
     <h1><ins>Student Register</ins></h1>
     
     <!-- GET / POST -->
-    <form action="Register.php" method="get">
+    <form action="Register.php" method="post">
     <!-- <form action="google.com" method="post">    -->
+       <div>
+          <label for="photo">Photo</label>
+          <input type="file" id="photo" name="photo" >
+       </div>
+       <br>
+
        <div>
           <label for="name"><ins>Student_Name</ins></label><br>
           <input type="text" id="name" name="studentname" minlength="5" maxlength="10" placeholder="eg: Mg Mg" required>
        </div>       
        <br>
+
        <div>
         <label for="Age">Student_Age</label><br>
         <input type="number"  id="Age" name="Student Age"step="1" min="20" max="30" required>
        </div>
        <br>
+
        <div>
         <label for="Phome">Student_Phone</label><br>
         <input type="number"  id="Phone" name="Student Phone"  min="999999999" max="9999999999" placeholder="eg: 08........" required>
-       </div<div>
-        
+       </div>
+        <br>
+
+        <div>
+        <label for="passwork">passwork</label><br>
+        <input type="number"  id="passwork" name="passwork"  min="5" required>
+       </div>
+       <br>
+
+       <div>
+         <label for="DOB">DOB</label><br>
+         <input type="date" name="DOB" id="DOB">
+       </div>
+       <br>
+
+
+
+
+
+       <label for=""><ins>Gender</ins></label>
+       <div>
+        <input type="radio" id="male" value="male" name="Gender">
+        <label for="male">male</label>
+       </div>
+       <div>
+        <input type="radio" id="female" value="female" name="Gender">
+        <label for="female">female</label>
+       </div>
+       <br>
+
+
+
+
+
+      <label for="">Hobbies</label>        
+       <br>
+
+       <div>
+        <input type="checkbox" id="reading"  value="reading" name="Hobbies">
+        <label for="">Reading</label>
+       </div>
+       <div>
+        <input type="checkbox" id="damcing" value="damcing" name="Hobbies">
+        <label for="">Damcing</label>
+       </div>
+       <div>
+        <input type="checkbox" id="travelling" value="travelling" name="Hobbies">
+        <label for="">travelling</label>
+       </div>
+       <div>
+        <input type="checkbox" id="swiming" value="swiming" name="Hobbies">
+        <label for="">swiming</label>
+       </div>
+       <br>
+
+       <label for="">Education</label>
+       <select name="education" id="education">
+         <option value="0">Choose Education</option>
+         <option value="1" selected.>First years</option>
+         <option value="2">Secont years</option>
+         <option value="3">Thirth years</option>
+         <option value="4">Fourth years</option>
+         <option value="5">Final years</option>
+       </select>
+      <br>
+
+      <fieldset>
+        <legend>Rules</legend>
+        <ol>
+            <li>This is number 1</li>
+            <li>This is number 2</li>
+            <li>This is number 3</li>
+            <li>This is number 4</li>
+        </ol>
+      </fieldset>
+      <br>
+
+      <div>
+        <label for="address">Address</label><br>
+        <textarea name="address" id="address"></textarea>
+      </div>
+     <br>
+
+
+
+
+
        <button type="submit">Register</button>
+       <button type="reset">Reset</button>
        <!-- <button type="submit">Enter</button> -->
 
     </form>
