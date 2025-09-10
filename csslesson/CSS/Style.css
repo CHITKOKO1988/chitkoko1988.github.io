@@ -1,5 +1,11 @@
 h1{
-    color: red;
+    /* color: red; keyword */
+    /* 0->9->0->f */ 
+    /* color: #d55e5e; HEX Code */
+    /* 0-> 255 */
+    color: rgb(10%, 10%, 100%);
     text-transform: uppercase;
-    
+    text-align: center;
+    font-size: 50px;
+
 }
