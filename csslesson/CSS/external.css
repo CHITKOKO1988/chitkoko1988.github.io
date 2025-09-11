@@ -1,0 +1,46 @@
+h1{
+    color: red;
+    text-align: center;
+}
+/*  id selector */
+#idselector{
+    color: blue;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-transform: capitalize;
+}
+
+#two{
+    color: yellow;
+    letter-spacing: 0;
+    word-spacing: 0px;
+    text-transform: capitalize;    
+}
+
+/*  class selector */
+.classselector{
+    color: orange;
+    letter-spacing: 2;
+    word-spacing: 5px;
+    text-transform: capitalize;     
+}
+
+/*  Child Selector*/
+#child > a{
+    color: yellow;
+    letter-spacing: 0;
+}
+
+#childd >span > a{
+    color: yellow;
+    letter-spacing: 0;
+}
+
+
+/*  Descendend Selector*/
+#desc a{
+    color: yellow;
+    letter-spacing: 0;
+}
+
+
