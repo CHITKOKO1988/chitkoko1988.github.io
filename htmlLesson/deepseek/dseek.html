@@ -1,0 +1,66 @@
+<!-- <!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>စာလုံးလေး ဘယ်ညာပြေးနေအောင်</title>
+</head>
+<body style="font-family: 'Myanmar3', sans-serif; background: #f0f8ff; text-align: center; padding: 50px;">
+    
+    <h1 style="color: #333;">စာလုံးလေး ဘယ်ညာပြေးနေအောင်</h1>
+    
+    <div style="font-size: 24px; font-weight: bold; color: #0066cc; 
+                margin: 30px; padding: 15px; 
+                position: relative; left: 0px;
+                animation: run 3s infinite alternate;">
+        ကျေးဇူးတင်ပါတယ်
+    </div>
+    
+    <p style="color: #666;">ဒီစာသားလေးက ဘယ်ညာပြေးနေတယ်မြင်ရမှာပါ</p>
+    
+    <script>
+        // JavaScript ဖြင့် animation လုပ်ဆောင်ခြင်း
+        let pos = 0;
+        let direction = 1;
+        const textElement = document.querySelector('div');
+        
+        setInterval(() => {
+            pos += direction * 2;
+            if (pos > 50 || pos < -50) direction *= -1;
+            textElement.style.left = pos + 'px';
+        }, 50);
+    </script>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>စာလုံးလေး ဘယ်ညာပြေးနေအောင်</title>
+</head>
+<body bgcolor="#f0f8ff" text="#000000" style="font-family: 'Myanmar3', sans-serif; text-align: center;">
+    
+    <h1>စာလုံးလေး ဘယ်ညာပြေးနေအောင်</h1>
+    
+    <marquee behavior="alternate" direction="right" scrollamount="8" width="80%">
+        <font size="5" color="#0066cc"><b>ကျေးဇူးတင်ပါတယ်</b></font>
+    </marquee>
+    
+    <br><br>
+    
+    <marquee behavior="alternate" direction="left" scrollamount="6" width="60%">
+        <font size="4" color="#cc3366">မြန်မာစာလုံးလေးများ</font>
+    </marquee>
+    
+    <br><br>
+    
+    <marquee behavior="alternate" direction="right" scrollamount="10" width="70%">
+        <font size="6" color="#339966">ဘယ်ညာပြေးနေတယ်</font>
+    </marquee>
+    
+    <p>ဒီစာသားလေးတွေက ဘယ်ညာပြေးနေတယ်မြင်ရမှာပါ</p>
+
+</body>
+</html>
