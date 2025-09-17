@@ -25,7 +25,7 @@ h1{
     text-transform: capitalize;     
 }
 
-/*  Child Selector*/
+/*  Child Selector */
 #child > a{
     color: yellow;
     letter-spacing: 0;
@@ -37,19 +37,19 @@ h1{
 }
 
 
-/*  Descendend Selector*/
+/*  Descendend Selector */
 #desc a{
     color: yellow;
     letter-spacing: 0;
 }
 
-/*  Pseudo selector */
+/*  Pseudo selector */  /* Underline in link */
 a:link{
     text-decoration: none;
     letter-spacing: 2px;
 }
 a:hover{
-    color: green;
+    color: rgb(3, 1, 24);
 }
 a:active{
     color: yellow;
