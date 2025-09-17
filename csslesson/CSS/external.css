@@ -44,7 +44,7 @@ h1{
 }
 
 /*  Pseudo selector */  /* Underline in link */
-a:link{
+/* a:link{
     text-decoration: none;
     letter-spacing: 2px;
 }
@@ -57,10 +57,65 @@ a:active{
 }
 a:visited{
     color: red;
-}
+} */
 
 :target{
     color: rgb(208, 241, 97);
     text-transform: uppercase;
     line-height: 20px;
+}
+/*  border */
+.borderone{
+    border: 20px double yellow ;   
+}
+.bordertwo{
+    border-top: 20px solid orange ;
+}
+.bordertree{
+    /* border-style: dotted; */
+    /* all */
+    /* broder-style= dotted solid; */
+    /* T&B / L&R */
+    border-style: solid dotted double;
+    /* T / L&R / B */
+    /* border-style: solid dashed double dotted; */
+    /* T / R / B / L  */
+}
+.borderfour{
+    border-style: solid;
+    border-color: red yellow green brown;
+    border-width: 30px 50px 100px;
+}
+/* margin */
+.{
+    margin: 0px;
+    padding: 0px;   
+}
+.marginone{
+   margin: 50px 100px;
+   border: 1px solid black;
+}
+.margintwo{
+   margin-right: 200px;
+   border: 1px solid black;
+}
+
+/* Padding */
+.paddingone{
+    /* padding: 10px 200px; */
+    border: 1px solid black;
+    padding-top: 200px ;
+}
+
+/* layout */
+
+.inline{
+    border: 2px solid red;
+    width: 400px;
+    display: inline-block;
+}
+.block{
+    border: 2px solid red;
+    width: 400px;
+    display: inline-block;   
 }
