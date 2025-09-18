@@ -43,12 +43,12 @@ h1{
     letter-spacing: 0;
 }
 
-/*  Pseudo selector */  /* Underline in link */
-/* a:link{
+ Pseudo selector */  /* Underline in a tag -link */
+ a:link{
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
-a:hover{
+/* a:hover{
     color: rgb(3, 1, 24);
 }
 a:active{
@@ -96,7 +96,7 @@ a:visited{
    border: 1px solid black;
 }
 .margintwo{
-   margin-right: 200px;
+   margin: 50px;
    border: 1px solid black;
 }
 
@@ -118,4 +118,60 @@ a:visited{
     border: 2px solid red;
     width: 400px;
     display: inline-block;   
+}
+
+
+
+/* Float */
+.Float_left img{
+    width: 20%;
+    border: 2px solid black;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
+.Float_right img{
+    width: 20%;
+    border: 30% solid black;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+/* Grid */
+
+.gridone div, .gridtwo div, .gridtree div, .gridfour div, .gridfive div, .gridsix div{
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+.gridone, .gridtwo, .gridtree, .gridfour, .gridfive, .gridsix{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridtwo{
+   grid-column-gap: 10px;
+}
+
+.gridtree{
+    grid-row-gap: 10px;
+}
+
+.gridfour{
+    grid-gap: 40px;
+    /* grid-column-gap: 40px; */
+    /* grid-row-gap: 60px; */
+}
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.rowadd{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
 }
