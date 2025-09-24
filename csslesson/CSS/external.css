@@ -87,7 +87,7 @@ a:visited{
     border-width: 30px 50px 100px;
 }
 /* margin */
-.{
+*{
     margin: 0px;
     padding: 0px;   
 }
@@ -174,4 +174,104 @@ a:visited{
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 3;
+}
+/* Position */
+
+.position_relative_parent{
+    border: 2px solid black;
+    width: 1000px;
+    height: 500px;
+}
+.position_relative{
+    border: 2px solid red;
+    width: 600px;
+    height: 300px;  
+    position: relative;
+    top: 50px;
+    left: 100px;  
+}
+
+.position_absolute_parcent{
+    border: 2px solid brown;
+    width: 1000px;
+    height: 500px; 
+    position: relative;  
+}
+.position_absolute{
+    border: 2px solid green;
+    width: 600px;
+    height: 300px;  
+    position: absolute;
+    top: 50px;
+    left: 50px;     
+}
+.fixed{
+    position: fixed;
+    top: 100px;
+    left: 50px;
+}
+/* online_font */
+
+.online_font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* Offline Font  */
+
+
+/* @font-face {
+    src: url(../fonttt/Dancing_Script/static/DancingScript-Medium.ttf)
+    font-family: "Oswalt"
+} */
+
+@font-face {
+    src: url(../fonttt/Dancing_Script/static/DancingScript-Medium.ttf );
+    font-family: "Dancing Script";
+}
+.offline_font{
+    font-family: "Dancing Script";
+}
+
+/* ------------------------------------------------------------- */
+@font-face {
+    font-family: "static";
+    src: url(../fonttt/static/DancingScript-Medium.ttf);
+}
+
+.offlinetwo{
+    font-family: "static", cursive ;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+/* ------------------------------------------------------------- */
+
+/* media css  */
+
+/* phone size */
+@media (max-width:600px){
+   body{
+    background-color: blue;
+   }
+}
+/* Tablet size */ 
+@media (min-width:601px) and (max-width:900px){
+   body{
+    background-color: orange;
+   }
+}
+/* Laptop Tablet size */ 
+@media (min-width:901px) and (max-width:1200px){
+   body{
+    background-color: yellow;
+   }
+}
+/* Laptop size */ 
+@media (min-width:1201px){
+   body{
+    background-color: Green;
+   }
 }
