@@ -121,3 +121,7 @@
     transform: scale(1.2);
     transition-duration: .8s;
 }
+.popular_hover{
+    overflow: hidden;
+}
+
