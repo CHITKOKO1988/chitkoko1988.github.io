@@ -18,6 +18,7 @@
 }
 .nav_item{
     float: right;
+    margin-bottom: 30px;
 }
 .nav_item li{
     display: inline-block;
@@ -28,6 +29,7 @@
    text-decoration: none;
    color: black;
    font-size: 20px;
+   /* margin-bottom: ; */
 }
 .nav_item li a:hover {
    color: blue;  
@@ -54,7 +56,7 @@
 .bunner_text{
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 30%;
     color: white;
     text-align: center;
 }
@@ -82,7 +84,7 @@
     color: #ffffff;    
 }
 /* End Bunner  */
-
+/* //////////////////////////////////////////////////////// */
 
 .popular{
     width: 80%;
@@ -121,7 +123,7 @@
 }
 
 
-
+/* ///////////////////////////////////// */
 
 
 .about{
@@ -134,8 +136,10 @@
 }
 .float_ll img{
     width: 40%;
-    border: 2px solid black;
-    float: left;    
+    border: 2px solid blue;
+    float: left;
+    margin-right: 15px;  
+    margin-bottom: 3px;  
 }
 .float_ll p{
     padding-left: 10px;
@@ -144,48 +148,7 @@
     clear: both;
 }
 
+/* //////////////////////////////////////////// */
 
 
-.popular2{
-    width: 80%;
-    margin: auto;
-    margin-top: 80px;
-}
-.popular_card2{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-top: 20px;
-    grid-gap: 30px;
-}
-.popular_card2 img{
-    width: 100%;
-}
-.popular_item2{
-    border: 1px solid #d7d7d7;
-    padding: 5px;
-    border-radius: 5px;
-}
-.popular_item2 buttonn{
-    padding: 10px;
-    float: right;
-    background-color: #234981;
-    color: #ffffff !important;
-    border: 1px solid #234981;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-.popular_item2 img:hover{
-    transform: scale(1.2);
-    transition-duration: .8s;
-}
-.popular_hover2{
-    overflow: hidden;
-}
-.popular_item2 img:hover{
-    transform: scale(1.2);
-    transition-duration: .8s;
-}
-.popular_hover2{
-    overflow: hidden;
-}
 
