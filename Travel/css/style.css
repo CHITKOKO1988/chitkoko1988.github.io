@@ -94,11 +94,6 @@
     grid-template-columns: auto auto auto;
     margin-top: 20px;
     grid-gap: 30px;
-
-
-    margin-bottom: 400px;
-
-
 }
 .popular_card img{
     width: 100%;
@@ -122,6 +117,75 @@
     transition-duration: .8s;
 }
 .popular_hover{
+    overflow: hidden;
+}
+
+
+
+
+
+.about{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+.about_p{
+   margin-bottom: 20px; 
+}
+.float_ll img{
+    width: 40%;
+    border: 2px solid black;
+    float: left;    
+}
+.float_ll p{
+    padding-left: 10px;
+}
+.clear{
+    clear: both;
+}
+
+
+
+.popular2{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+.popular_card2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    grid-gap: 30px;
+}
+.popular_card2 img{
+    width: 100%;
+}
+.popular_item2{
+    border: 1px solid #d7d7d7;
+    padding: 5px;
+    border-radius: 5px;
+}
+.popular_item2 buttonn{
+    padding: 10px;
+    float: right;
+    background-color: #234981;
+    color: #ffffff !important;
+    border: 1px solid #234981;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.popular_item2 img:hover{
+    transform: scale(1.2);
+    transition-duration: .8s;
+}
+.popular_hover2{
+    overflow: hidden;
+}
+.popular_item2 img:hover{
+    transform: scale(1.2);
+    transition-duration: .8s;
+}
+.popular_hover2{
     overflow: hidden;
 }
 
