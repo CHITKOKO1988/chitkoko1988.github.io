@@ -311,10 +311,11 @@
 #footer{
     background-color: #202225;
     color: #d7d7d7;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 .footer{
+    padding: 50px;
     width: 90%;
     margin: auto;
     display: grid;
@@ -333,9 +334,24 @@
     display: block;
     color: #ffffff;
     text-decoration: none;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+ }
+ .footer_contact{
+    margin-bottom: 10px;
+    padding-left: 30px;
  }
 
+ .footer_contact_title{
+    padding-left: 30px;
+ }
+ .footer_icon{
+    margin-top: 30px;
+ }
+
+.divided{
+    border: 1px solid #d7d7d7;
+    margin-bottom: 40px;
+}
 
 
 /* End Footer  */
