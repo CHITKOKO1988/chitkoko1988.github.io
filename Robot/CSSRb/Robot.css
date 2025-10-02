@@ -63,10 +63,18 @@
 .bunner_text{
     position: absolute;
     top: 10%;
-    left: 5%;
-    color: black;
-    text-align: center;
+    left: 60%;
+    color: white;
+    /* float: right; */
+    /* text-align: center; */
+    /* margin-left: 100px; */
 }
+
+.bunner_text_a{
+    margin-left: 200px;
+}
+
+
 .bunner_text h1{
     font-size: 35px;
     margin-bottom: 10px;
