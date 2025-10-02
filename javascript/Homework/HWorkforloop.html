@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HWork_Forloop</title>
+</head>
+<body>
+    <h1>Homework One</h1>
+    <script>
+
+        let q = prompt("Enter a number");
+        
+        for (let h = 1; h <=12; h++) {
+            document.write(`<p> ${q} x ${h} = ${q*h}</p>`);
+        }
+
+    </script>
+
+
+    <h1>Homework Two</h1>
+    <script>
+
+        for(let j = 0; j < 5; j++){
+            for(let p = 0; p <= j; p++){
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+        document.write("<br>");
+        document.write("<br>");
+        for(let j = 5; j > 0; j--){
+            for(let p = 1; p <= j; ++p){
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+
+
+
+    </script>
+    <!-- print("j") -->
+</body>
+</html>
