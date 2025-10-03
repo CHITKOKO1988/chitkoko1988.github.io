@@ -140,6 +140,23 @@
     border-radius: 5px;
     margin-bottom: 10px;
 }
+/* ///////////////////////////////// */
+.product_item a{
+    padding: 10px;
+    float: right;
+    background-color: #234981;
+    color: #ffffff !important;
+    border: 1px solid #234981;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+
+
+
+
+
 .product_item img:hover{
     transform: scale(1.2);
     transition-duration: .8s;
@@ -220,6 +237,23 @@
     padding: 5px;
     border-radius: 5px;
 }
+
+/* ///////////////////////////////// */
+.popular_item a{
+    padding: 10px;
+    float: right;
+    background-color: #234981;
+    color: #ffffff !important;
+    border: 1px solid #234981;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+
+
+
+
 
 .popular_item button{
     padding: 10px;
