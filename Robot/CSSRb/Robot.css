@@ -16,6 +16,13 @@
     height: 100px;
     margin-top: 10px;
     margin-left: 80px;
+    background-color: #f6f5ef;
+    border-radius: 50px;
+}
+
+.nav{
+    background-color: #88d7fe;
+    
 }
 
 .nav_item{
@@ -356,6 +363,15 @@
     margin-top: 30px;
  }
 
+.footer i{
+    padding: 50px;
+ }
+
+.place {
+    margin-top: 30px;
+}
+
+
 .divided{
     border: 1px solid #d7d7d7;
     margin-bottom: 40px;
@@ -364,3 +380,9 @@
 
 /* End Footer  */
 /* ///////////////////////////////////// */
+
+.conbox{
+    border: 2px solid red;
+    width: 400px;
+    display: inline-block;
+}
