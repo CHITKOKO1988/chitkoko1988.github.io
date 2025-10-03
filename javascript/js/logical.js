@@ -12,7 +12,7 @@ console.log(23 < 25 || 30 < 30);
 
 let num = 1;
 
-if (!nim) {
+if (!num) {
     console.log("NOT Operator");
     
 }
