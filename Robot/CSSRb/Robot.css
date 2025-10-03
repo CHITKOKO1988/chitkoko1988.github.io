@@ -166,7 +166,7 @@
 }
 
 /* End Product  */
-/* ///////////////////////////////////// */
+/* /////////////////////////////////////////////////// About //////////////////////////////// */
 /* Start About */
 
 .about{
@@ -287,7 +287,11 @@
 }
 
 .ReviewP{
-    margin-bottom: 20px;  
+    margin-bottom: 30px;  
+}
+
+.review  h3{
+    text-align: center; 
 }
 
 .review > p{
@@ -364,7 +368,7 @@
 }
 
 .footer{
-    padding: 50px;
+    padding: 80px;
     width: 90%;
     margin: auto;
     display: grid;

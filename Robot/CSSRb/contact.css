@@ -23,6 +23,20 @@
     /* display: inline-block; */
 }
 
+#conform a{
+    /* width: 80%; */
+    color: black;
+    text-decoration: none;
+    background-color: #88d7fe;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+
 .formdiv{
      display: inline-block;
 }
