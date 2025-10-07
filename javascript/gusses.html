@@ -12,16 +12,20 @@
         let scno = 7;
         let ent = prompt("Enter a number between 0 to 9");
         while (scno != ent) {
-            if (ent < scno) {
-                alert("You number is Lower, Please try again!")
+            if (ent < scno) {               
+                alert("You number is Lower, Please try again!");
+                let num++;
 
             }else{
-                alert("You number is Greather, Please try again!")
+                alert("You number is Greather, Please try again!");
+                // let num++;
             }
             ent = prompt("Enter a number between 0 to 9");
         }
 
-        document.write("Your number is right");
+        // let correct = i + j;
+        document.write(`<h1>You got it right on the ${num} try</h1>`);
+        console.log(num);
 
 
 
