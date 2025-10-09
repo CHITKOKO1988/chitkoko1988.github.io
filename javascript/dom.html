@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Lesson</title>
+</head>
+<body>
+    <h1 id="iddom">DOM <en>Model</en> Lesson</h1>
+
+    <p class="myclass"> Class selector</p>
+    <div>Class one selector</div>
+    <div class="myclass">Class two selector</div>
+
+    <button onclick="show()">Click me</button>
+
+    <script>
+        function show() {
+            let myid = document.getElementById("iddom");
+            // alert("OK");
+
+            // Id selector
+            let myid = document.getElementById("iddom");
+            console.log(myid);
+            console.log(myid.innerText);
+            console.log(myid.innerHTML);
+
+            // class selector
+            let myclass = document.getElementsByClassName("myclass");
+            console.log(myclass);
+            console.log(myclass[0].innerHTML);
+
+            // tag selector
+            let mytag = document.getElementsByClassName("div");
+            console.log(mytag);
+            console.log(myteg[1].innerText);
+
+            // query selector
+            let myquery = document.querySelector("iddom");
+            console.log(myquery);
+            console.log(myquery.innerText);
+            console.log(myquery.innerHTML);
+
+            let myquerclass = document.querySelector("myclass");
+            console.log(myquerclass);
+
+            // query selector all
+            let queryall = document.querySelectorAll("myclass");
+            console.log(queryall);
+
+        }
+    </script>
+</body>
+</html>

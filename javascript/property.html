@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property method</title>
+</head>
+<body>
+    <h1>Property & Method</h1>
+    <h2 id="CTNodeid"></h2>
+    <button onclick="createtext()">Create text</button>
+    <button onclick="createEle()">Create text Node</button>
+
+    <script>
+        function createtext() {
+            // alert("OK");
+            let CTNodeid = document.querySelector("#CTNodeid");
+            let createtext = document.createTextNode("This is Text Node");
+            createTextNode.appendChild(createtext);
+        }
+
+
+        function createEle() {
+            let h3 = document.createElement("div");
+            h3.innerHTML = `This is create <em> Element </em> Node`;
+                document.body.appendChild(h3);
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>
