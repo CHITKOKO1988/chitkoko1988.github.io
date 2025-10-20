@@ -22,3 +22,12 @@ origin
 -git branch
 -git checkout -b branch_name
 -git checkout branch_name
+
+Upload Fail
+===========
+- git pull origin main =>
+=========>
+-git add .
+-git commit -m "???"
+-git push -u origin main
+
