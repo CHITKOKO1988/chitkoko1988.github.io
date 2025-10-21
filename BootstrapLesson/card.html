@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart lesson</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    
+
+    <h1 class="text-center text-danger my-5" >Cart lesson</h1>
+
+    <div class="card">
+        <div class="card-header">
+            <h1 class="card">This is card Title</h1>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, corrupti? Soluta fugit perspiciatis rem tempore quibusdam, modi perferendis laudantium earum quae a aperiam officia quam ipsa distinctio ratione eius odit.
+            </p>
+        </div>
+        <div class="card-footer">
+
+
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <h1 class="text-center text-danger my-sm-5">Row Cols</h1>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
+            <div class="col">
+                <div class="card">
+                    <img src="bootstrap/images/SH3.avif" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Product Name</h5>
+                        <p>405</p>
+                        <button class="btn btn-sm btn-primary">See more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="text-center text-danger my-5">Offsets</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="offset-2 col-8 offset-sm-0 offset-md-4 col-md-4 my-2">
+                <div class="card">
+                    <img src="bootstrap/images/SH3.avif" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Product Name</h5>
+                        <p>405</p>
+                        <button class="btn fload-end btn-secondary" data-bs-target="#mymodel" data-bs-toggle="model" >See more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+<div class="model fade" id="mymodel" >
+    <div class="model-dialog model-lg">
+        <div class="model-content">
+            <div class="model-header">
+                <h1>This is model title</h1>
+                <button class="btn-close" data-bs-dismis="model" ></button>
+            </div>
+            <div class="model-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="bootstrap/images/SH3.avif" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <h4>Product name</h4>
+                            <p>Price : 405</p>
+                            <p>Colour : Red</p>
+                            <h5>Desctiption :</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nemo eligendi quaerat unde ipsum error dignissimos hic autem esse aspernatur? Nesciunt quo ab eos sed omnis facilis error nihil rerum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="model-footer">
+                <button data-bs-dismis="model" class="btn btn-secondary">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
