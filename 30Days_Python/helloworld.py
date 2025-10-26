@@ -27,7 +27,52 @@
 
 # Day3-2
 
-pi=3.14
-radius=float(input('Enter your Circle:'))
-area=pi * radius * radius
-print('Area of Circle:',area)
+# pi=3.14
+# radius=float(input('Enter your Circle:'))
+# area=pi * radius * radius
+# print('Area of Circle:',area)
+
+# Day4
+
+# x=100
+# y=80
+# print('X is greater than y is ', x > y)
+# print('x is less than y is ', x < y)
+# print('x is equal to y is ', x == y)
+# print('x is not equal to y is ', x != y)
+# print('x is greader than or equal to y is ', x >= y)
+# print('x is less than or equal to y is ', x <= y)
+
+# Day5
+
+# Student_List=['mg mg', 'aung aung', 'zaw zaw']
+# print(Student_List)
+# Student_List.append('aye aye')
+# print(Student_List)
+# Student_List[3]='Nilar'
+# print(Student_List)
+
+# Day6
+
+# my_dictionary={'name':'ThuYa','Age':17}
+# print(my_dictionary)
+# my_dictionary['City']='Yangon'
+# print(my_dictionary)
+# my_dictionary['City']='Mandalay'
+# print(my_dictionary)
+
+# Day7
+
+# if
+# n=3
+# if n > 5:
+#     print('n is 3 / greater than 5.')
+# if n < 5:
+#     print('n is 3 / less than 5.')
+# if n == 3:
+#     print('n is equal to 3.')
+# if n != 3:
+#     print('n is not equal to 3.')
+
+
+
