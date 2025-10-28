@@ -10,3 +10,18 @@
 .logo{
     width: 150px;
 }
+
+.nav_item:hover{
+    color: #dc3545 !important;
+}
+
+.active{
+    color: #dc3545 !important;
+}
+
+.cart_noti{
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
