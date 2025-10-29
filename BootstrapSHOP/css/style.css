@@ -58,5 +58,24 @@
     cursor: pointer;
 }
 
-
 /* end service */
+
+/* start Promotion */
+
+.title_underline{
+    width: 80px;
+    height: 4px;
+}
+
+.fav_icon:hover{
+    background-color: #dc3545;
+}
+
+.fav_icon:hover .heart_icon{
+    color: white !important;
+}
+
+
+/* end Promotion */
+
+
