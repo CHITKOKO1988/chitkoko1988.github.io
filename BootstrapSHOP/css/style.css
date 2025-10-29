@@ -75,7 +75,33 @@
     color: white !important;
 }
 
-
 /* end Promotion */
 
+/* start category */
+ 
+.category_card:hover .category_img{
+    filter:brightness(60%);
+    transition: scale all 0.5s ease;
+}
+
+.category_card:hover{
+    tramsform : scale(1.06);
+}
+
+/* end category */
+
+/* start blog */
+
+.blog_card{
+    position: relative;
+}
+
+.blog_date{
+    position: absolute;
+    
+}
+
+
+
+/* end blog */
 
