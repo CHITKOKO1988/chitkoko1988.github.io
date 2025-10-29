@@ -7,6 +7,8 @@
     font-family: Oswald;
 }
 
+/* start nav  */
+
 .logo{
     width: 150px;
 }
@@ -21,7 +23,40 @@
 
 .cart_noti{
     position: relative;
-    top: -10px;
-    left: -10px;
+    top: -15px;
+    left: -12px;
 }
 
+/* end nav  */
+
+/* start carousel */
+
+.carousel-img{
+    height: 65vh;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.carousel-caption{
+    top: 30%;
+    transform: translateY(-50);
+}
+
+/* end carousel */
+
+/* start service */
+
+.service_icon{
+    width: 60px;
+    height: 60px;
+    margin: 0px auto;
+}
+
+.service_card:hover{
+    transform: translateY(-5px);
+    transition-duration: -3s;
+    cursor: pointer;
+}
+
+
+/* end service */
