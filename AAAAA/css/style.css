@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Oswald";
+    src: url(../font/OswaldFont/Oswald-VariableFont_wght.ttf);
+    /* src: url(../../BootstrapSHOP/font/OswaldFont/Oswald-VariableFont_wght.ttf); */
+}
+
+* {
+    font-family: Oswald;
+}
+
+
+/* ==============================================        */
+
+
+/* .nav_logo img{
+    width: 100px;
+}
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link:hover {
+    border-bottom: 2px solid black;
+    /* Hover effect */
+}
+
+
+
+/* ==============================================        */
+
+
+.hero-section {
+    min-height: 85vh;
+    /* မျက်နှာပြင်ရဲ့ 85% အမြင့် */
+    background-size: cover;
+    background-position: center;
+    margin-top: 56px;
+    /* Navbar အောက်မှာ နေရာချရန် */
+    color: white;
+    /* နောက်ခံပုံထည့်ရန် အမဲရောင် အလွှာပါးပါးလေးထပ်ခြင်း */
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    /* အနည်းငယ် မှောင်ပေးခြင်း */
+    z-index: 1;
+}
+
+.hero-section>div {
+    z-index: 2;
+    /* စာသားနဲ့ ခလုတ်ကို ပုံပေါ်အောင်လုပ်ခြင်း */
+} */
+
+
+/* start nav  */
+
+.logo{
+    width: 150px;
+}
+
+.nav_item:hover{
+    color: #dc3545 !important;
+}
+
+.active{
+    color: #dc3545 !important;
+}
+
+.cart_noti{
+    position: relative;
+    top: -15px;
+    left: -12px;
+}
+
+/* end nav  */

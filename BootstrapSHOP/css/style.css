@@ -85,7 +85,8 @@
 }
 
 .category_card:hover{
-    tramsform : scale(1.06);
+    transform: scale(1.06);
+
 }
 
 /* end category */
@@ -98,7 +99,7 @@
 
 .blog_date{
     position: absolute;
-    
+
 }
 
 
